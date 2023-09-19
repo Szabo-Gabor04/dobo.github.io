@@ -1,0 +1,32 @@
+﻿body {
+    background-image: url("hatter.jpg");
+    background-size: contain;
+    background-origin: border-box;
+    background-repeat: round;
+}
+
+.container {
+    width: 800px;
+    height: 51px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+    margin-top: 400px;
+    
+    text-align: center;
+}
+
+.row {
+    justify-content: center; /* Horizontális középre igazítás */
+    align-items: center; /* Vertikális középre igazítás */
+}
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: darkblue;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+} 
